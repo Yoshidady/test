@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 from datetime import datetime
-from auth1_data import token
+from API import token
 import requests
 import json 
 from bs4 import BeautifulSoup
@@ -172,3 +172,4 @@ def search_v(message):
 
 
 bot.polling(none_stop=True)
+#reset
